@@ -4,9 +4,9 @@ This repository contains a collection of questions and answers related to fundam
 
 ## Table of Contents
 
-1. [Control Flow](control-flow-qna.md)
-2. [Data Types](variables-and-data-types-qna.md)
-3. [Variables and Scope](functions-and-scope-qna.md)
+1. [Variables and Data Types](variables-and-data-types-qna.md)
+2. [Control Flow](control-flow-qna.md)
+3. [Functions and Scope](functions-and-scope-qna.md)
 
 ...
 
