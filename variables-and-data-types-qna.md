@@ -23,3 +23,19 @@ console.log(x); // ReferenceError: x is not defined
 let x = 5;
 console.log(x); // Output: 5
 ```
+
+4. **Question:** What are the primitive data types in JavaScript?
+
+**Answer:**
+A primitive data type in JavaScript is a data type that is not an object and has no methods or properties. The primitive data types include:
+
+- **Number:** Represents numeric values.
+- **String:** Represents textual data.
+- **Boolean:** Represents true or false values.
+- **Null:** Represents the intentional absence of any object value.
+- **Undefined:** Represents an uninitialized variable.
+- **Symbol:** Introduced in ECMAScript 6, represents unique and immutable values.
+
+Primitive data types are immutable, meaning their values cannot be changed once they are assigned.
+
+---
