@@ -54,4 +54,16 @@ Both `==` and `===` are equality operators used for comparing values in JavaScri
 
 Using `===` is often recommended to avoid unexpected type coercion and ensure a strict comparison of both value and type.
 
----
+6. **Question:** How do you convert a string to a number in JavaScript?
+
+**Answer:**
+There are various ways to convert a string to a number, but one common method is to use the built-in `Number()` function. This function takes a string as a parameter and converts it into a number.
+
+**Example:**
+
+```javascript
+let age = "25";
+console.log(age + 2); // Output: "252" (concatenation)
+age = Number(age);
+console.log(age + 2); // Output: 27 (numeric addition)
+```
