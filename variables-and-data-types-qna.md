@@ -79,3 +79,12 @@ The `typeof` operator is a built-in method in JavaScript used to check the data 
 let age = 13;
 console.log(typeof age); // Output: number
 ```
+
+8. **Question:** What is the difference between null and undefined?
+
+**Answer:**
+The `undefined` value is automatically assigned to a variable with no values. In other words, it is the default value given or assigned to an uninitialized variable.
+
+On the other hand, `null` is intentionally assigned to a variable that will be receiving a value later in the future.
+
+---
