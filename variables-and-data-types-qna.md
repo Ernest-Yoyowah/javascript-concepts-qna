@@ -38,4 +38,20 @@ A primitive data type in JavaScript is a data type that is not an object and has
 
 Primitive data types are immutable, meaning their values cannot be changed once they are assigned.
 
+5. **Question:** Explain the difference between == and === in JavaScript.
+
+**Answer:**
+Both `==` and `===` are equality operators used for comparing values in JavaScript. However, there is a key difference:
+
+- **`==` (Equality Operator):**
+
+  - Checks for equality of values but performs type coercion if the operands are of different types.
+  - For example, `1 == '1'` will evaluate to `true` because the values are considered equal after type coercion.
+
+- **`===` (Strict Equality Operator):**
+  - Checks for equality of values and also ensures that the operands are of the same type.
+  - For example, `1 === '1'` will evaluate to `false` because the values are not only different but also have different types.
+
+Using `===` is often recommended to avoid unexpected type coercion and ensure a strict comparison of both value and type.
+
 ---
