@@ -67,3 +67,15 @@ console.log(age + 2); // Output: "252" (concatenation)
 age = Number(age);
 console.log(age + 2); // Output: 27 (numeric addition)
 ```
+
+7. **Question:** Describe the purpose of the typeof operator.
+
+**Answer:**
+The `typeof` operator is a built-in method in JavaScript used to check the data type of values. It returns an output indicating the type of the operand.
+
+**Example:**
+
+```javascript
+let age = 13;
+console.log(typeof age); // Output: number
+```
