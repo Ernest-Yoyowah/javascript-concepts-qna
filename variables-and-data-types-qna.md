@@ -87,4 +87,18 @@ The `undefined` value is automatically assigned to a variable with no values. In
 
 On the other hand, `null` is intentionally assigned to a variable that will be receiving a value later in the future.
 
----
+9. **Question:** How do you check if a variable is defined in JavaScript?
+
+**Answer:**
+To check if a variable is defined in JavaScript, you can use the built-in `typeof` operator to output the current state of the variable.
+
+**Example:**
+
+```javascript
+let name;
+if (typeof name === "undefined") {
+  console.log(`Not Defined`);
+} else {
+  console.log(`Defined`);
+}
+```
