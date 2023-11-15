@@ -102,3 +102,26 @@ if (typeof name === "undefined") {
   console.log(`Defined`);
 }
 ```
+
+10. **Question:** What is variable scope in JavaScript?
+
+**Answer:**
+Variable scope in JavaScript refers to the accessibility of a variable in a function or block of code. There are two main types of scope: block scope and function scope.
+
+- In block scope, variables declared with `let` or `const` can only be accessed within the block they are declared. However, if declared with `var`, they can be accessed anywhere.
+
+- In function scope, variables declared with `let` or `const` can only be accessed within the entire function they are declared. Again, if declared with `var`, they can be accessed anywhere.
+
+**Example:**
+
+```javascript
+function exampleFunction() {
+  let blockScopeVar = "Block Scope";
+  var functionScopeVar = "Function Scope";
+  console.log(blockScopeVar); // Accessible
+  console.log(functionScopeVar); // Accessible
+}
+
+console.log(blockScopeVar); // Error: blockScopeVar is not defined
+console.log(functionScopeVar); // Error: functionScopeVar is not defined
+```
