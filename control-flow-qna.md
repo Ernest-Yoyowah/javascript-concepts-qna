@@ -24,7 +24,7 @@ if (age >= 18) {
 }
 ```
 
-12. **Question:** Explain the purpose of the switch statement and provide an example.
+2. **Question:** Explain the purpose of the switch statement and provide an example.
 
 **Answer:**
 The purpose of the switch statement in JavaScript is to provide results based on conditions. It allows for multiple cases and includes a default result that you define. The switch statement is often considered clearer, has faster compile time, and is easier to read and write compared to using multiple if and else if statements. It also helps reduce code repetition.
