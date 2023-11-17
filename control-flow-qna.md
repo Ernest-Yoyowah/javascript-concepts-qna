@@ -51,3 +51,22 @@ switch (day) {
 
 console.log(message);
 ```
+
+3. **Question:** How would you write a for loop in JavaScript?
+
+**Answer:**
+To write a for loop in JavaScript, you start with the `for` keyword followed by parentheses. Inside the parentheses:
+
+- Initialize a variable for the loop counter, often using `let` due to variable scoping (`let i = 0`).
+- Set the loop condition, indicating when the loop should end (`i < 10` or `i < arr.length`).
+- Specify the increment or decrement of the loop counter (`i++` or `i--`).
+  Use semicolons to separate these components. Then, open a block of code within curly braces `{}` to execute or return something.
+
+**Example:**
+
+```javascript
+for (let i = 0; i < 10; i++) {
+  // Code to be executed in each iteration
+  console.log(i);
+}
+```
