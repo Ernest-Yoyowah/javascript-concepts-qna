@@ -70,3 +70,33 @@ for (let i = 0; i < 10; i++) {
   console.log(i);
 }
 ```
+
+## Control Flow
+
+### 14. What is the difference between for...in and for...of loops?
+
+**Answer:**
+While `for...in` and `for...of` loops share similarities and perform similar tasks, their main difference lies in what they iterate over and the output they provide.
+
+- **`for...in` Loop:**
+
+  - Iterates over enumerable properties of an object, including string objects.
+  - When used with arrays, it outputs the indexes of the array, not the values.
+
+  **Example:**
+
+  ```javascript
+  let person = { name: "Ernest", age: 20, sex: "male" };
+
+  for (let prop in person) {
+    console.log(prop); // Outputs the properties of the object person
+  }
+
+  // When used with arrays
+  let numbers = [1, 2, 3, 4, 5];
+  for (let index in numbers) {
+    console.log(index); // Outputs indexes: 0, 1, 2, 3, 4
+    // To get actual values, we need to be specific
+    console.log(numbers[index]); // Outputs values: 1, 2, 3, 4, 5
+  }
+  ```
