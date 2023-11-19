@@ -71,9 +71,7 @@ for (let i = 0; i < 10; i++) {
 }
 ```
 
-## Control Flow
-
-### 14. What is the difference between for...in and for...of loops?
+4. **Question:** What is the difference between for...in and for...of loops?
 
 **Answer:**
 While `for...in` and `for...of` loops share similarities and perform similar tasks, their main difference lies in what they iterate over and the output they provide.
