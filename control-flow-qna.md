@@ -105,3 +105,13 @@ While `for...in` and `for...of` loops share similarities and perform similar tas
 
   - Primarily used with arrays and iterates over the values of iterable objects.
   - Outputs the actual values, not the indexes.
+
+  **Example:**
+
+```javascript
+let numbers = [1, 2, 3, 4, 5];
+
+for (let num of numbers) {
+  console.log(num); // Outputs values: 1, 2, 3, 4, 5
+}
+```
