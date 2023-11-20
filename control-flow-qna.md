@@ -114,9 +114,7 @@ for (let num of numbers) {
 }
 ```
 
-<!-- ## Control Flow -->
-
-### 15. How do you use the `break` and `continue` statements in loops?
+15. **Question:** How do you use the `break` and `continue` statements in loops?
 
 **Answer:**
 Both the `break` and `continue` statements are built-in features in programming loops but serve different purposes.
