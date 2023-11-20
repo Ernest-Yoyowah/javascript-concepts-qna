@@ -134,3 +134,19 @@ Both the `break` and `continue` statements are built-in features in programming 
   }
   // Output: 0, 1, 3, 4
   ```
+
+- **`break` Statement:**
+
+  - Used to exit the entire loop prematurely if a certain condition is met, regardless of the loop's normal exit condition.
+
+    **Example:**
+
+  ```javascript
+  for (let i = 0; i < 5; i++) {
+    if (i === 3) {
+      break; // Exit the loop when i === 3
+    }
+    console.log(i);
+  }
+  // Output: 0, 1, 2
+  ```
