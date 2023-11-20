@@ -113,3 +113,26 @@ for (let num of numbers) {
   console.log(num); // Outputs values: 1, 2, 3, 4, 5
 }
 ```
+
+<!-- ## Control Flow -->
+
+### 15. How do you use the `break` and `continue` statements in loops?
+
+**Answer:**
+Both the `break` and `continue` statements are built-in features in programming loops but serve different purposes.
+
+- **`continue` Statement:**
+
+  - Used to skip the rest of the code inside a loop for the current iteration if a certain condition is met.
+
+  **Example:**
+
+  ```javascript
+  for (let i = 0; i < 5; i++) {
+    if (i === 2) {
+      continue; // Skip the rest of the loop for i === 2
+    }
+    console.log(i);
+  }
+  // Output: 0, 1, 3, 4
+  ```
