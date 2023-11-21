@@ -151,7 +151,7 @@ Both the `break` and `continue` statements are built-in features in programming 
   // Output: 0, 1, 2
   ```
 
-16. **Question:** Write a function that returns the factorial of a given number using a loop.
+6. **Question:** Write a function that returns the factorial of a given number using a loop.
 
 **Answer:**
 To create a function that returns the factorial of a given number:
