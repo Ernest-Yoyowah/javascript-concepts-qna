@@ -114,7 +114,7 @@ for (let num of numbers) {
 }
 ```
 
-15. **Question:** How do you use the `break` and `continue` statements in loops?
+5. **Question:** How do you use the `break` and `continue` statements in loops?
 
 **Answer:**
 Both the `break` and `continue` statements are built-in features in programming loops but serve different purposes.
@@ -150,3 +150,53 @@ Both the `break` and `continue` statements are built-in features in programming 
   }
   // Output: 0, 1, 2
   ```
+
+16. **Question:** Write a function that returns the factorial of a given number using a loop.
+
+**Answer:**
+To create a function that returns the factorial of a given number:
+
+1. First, create the function:
+
+   ```javascript
+   const factorialIterative = (n) => {};
+   ```
+
+2. Declare and initialize a variable, setting it to 1:
+
+   ```javascript
+   let result = 1;
+   ```
+
+3. Create a for loop to iterate through the numbers up to the given number and multiply them:
+
+   ```javascript
+   for (let i = 1; i <= n; i++) {
+     result *= i;
+   }
+   ```
+
+4. Return the result:
+
+   ```javascript
+   return result;
+   ```
+
+   **Example:**
+
+```javascript
+const factorialIterative = (n) => {
+  let result = 1;
+
+  for (let i = 1; i <= n; i++) {
+    result *= i;
+  }
+
+  return result;
+};
+
+// Example usage:
+const n = 5;
+const result = factorialIterative(n);
+console.log(`Factorial of ${n} is: ${result}`);
+```
