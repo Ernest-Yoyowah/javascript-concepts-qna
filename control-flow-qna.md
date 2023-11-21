@@ -200,3 +200,20 @@ const n = 5;
 const result = factorialIterative(n);
 console.log(`Factorial of ${n} is: ${result}`);
 ```
+
+7. **Question:** What is short-circuit evaluation in JavaScript?
+
+**Answer:**
+Short-circuit evaluation is a concept in JavaScript where the compiler stops the execution of an expression halfway when the result of that expression is already determined. This commonly occurs with the logical AND (`&&`), logical OR (`||`), and Nullish Coalescing (`??`) operators.
+
+**Example:**
+
+```javascript
+// Using logical OR (||)
+true || false; // Output: true
+// The compiler stops execution and ignores the falsy value
+
+// Using logical AND (&&)
+2 > 5 && 1 < 2; // Output: false
+// The compiler stops execution and ignores the second operand even though it's true
+```
