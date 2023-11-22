@@ -264,7 +264,7 @@ Object.values(user).forEach((value) => {
 });
 ```
 
-4. Using `Object.entries()` Method:
+5. Using `Object.entries()` Method:
 
 ```javascript
 const entries = Object.entries(user);
