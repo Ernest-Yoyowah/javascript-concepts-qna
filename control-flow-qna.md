@@ -217,3 +217,56 @@ true || false; // Output: true
 2 > 5 && 1 < 2; // Output: false
 // The compiler stops execution and ignores the second operand even though it's true
 ```
+
+8. **Question:** How can you loop through the keys of an object in JavaScript?
+
+**Answer:**
+There are several ways to loop through the keys of an object in JavaScript. Consider an object `user` for the examples:
+
+```javascript
+const user = {
+  name: "Mike",
+  age: 29,
+  sex: "male",
+};
+```
+
+1. Using `for...of` Loop:
+
+```javascript
+for (let key of Object.keys(user)) {
+  console.log(`${user[key]}`);
+}
+```
+
+2. Using `Object.keys()` Loop:
+
+```javascript
+const keys = Object.keys(user);
+keys.forEach((key) => {
+  console.log(`${user[key]}`);
+});
+```
+
+3. Using `for...in` Loop:
+
+```javascript
+for (const key in user) {
+  console.log(`${user[key]}`);
+}
+```
+
+4. Using `Object.values()` Method:
+
+```javascript
+Object.values(user).forEach((value) => {
+  console.log(value);
+});
+```
+
+4. Using `Object.entries()` Method:
+
+```javascript
+const entries = Object.entries(user);
+console.log(entries);
+```
