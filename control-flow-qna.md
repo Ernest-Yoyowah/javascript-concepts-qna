@@ -270,3 +270,21 @@ Object.values(user).forEach((value) => {
 const entries = Object.entries(user);
 console.log(entries);
 ```
+
+9. **Question:** Explain the concept of the ternary operator in JavaScript.
+
+**Answer:**
+The ternary operator is the only operator in JavaScript that takes in three arguments. It consists of a condition followed by a question mark `?`, then an expression to execute if the condition is truthy, followed by a colon `:` and finally the expression to execute if the condition is falsy. The ternary operator is often used as a concise alternative for the `if...else` statement. While it is compact, it can be a bit challenging to read and understand, especially if it contains multiple `if...else` statements.
+
+**Syntax:**
+
+```javascript
+condition ? "exprIfTrue" : "exprIfFalse";
+```
+
+**Example:**
+
+```javascript
+const age = 20;
+let result = age >= 20 ? "Bear" : "Pineapple Juice";
+```
