@@ -2,7 +2,7 @@
 
 ## Functions and Scope
 
-21. **Question:** Describe the purpose of a JavaScript function.
+1. **Question:** Describe the purpose of a JavaScript function.
 
 **Answer:**
 In JavaScript, a function is a block of code designed to perform a specific task. It can take input parameters and return a value or result. Functions are used to organize code, make it reusable, and improve code readability. Here are some of the purposes of using functions in JavaScript:
