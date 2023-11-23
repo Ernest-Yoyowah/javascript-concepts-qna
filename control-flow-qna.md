@@ -288,3 +288,23 @@ condition ? "exprIfTrue" : "exprIfFalse";
 const age = 20;
 let result = age >= 20 ? "Bear" : "Pineapple Juice";
 ```
+
+10. **Question:** How would you use the try, catch, and finally blocks for error handling?
+
+**Answer:**
+The `try`, `catch`, and `finally` blocks are used for error handling in JavaScript. The `try` block contains the code that you want to execute, and if an error occurs, the control flow is transferred to the `catch` block. The `catch` block contains the code that you want to execute to handle the error. The `finally` block contains the code that you want to execute regardless of whether an error occurs.
+
+**Example:**
+
+```javascript
+const makeError = () => {
+  try {
+    const name = "Ernest";
+    name = "Yoyowah"; // This will cause an error
+  } catch (err) {
+    console.error(err); // Handle the error
+  } finally {
+    console.log("This will always be executed");
+  }
+};
+```
