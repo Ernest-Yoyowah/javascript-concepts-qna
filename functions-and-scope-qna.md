@@ -32,3 +32,38 @@ const areaOfRectangle = (width, height) => {
 let result = areaOfRectangle(2, 6);
 console.log(result);
 ```
+
+2. **Question:** Explain the difference between function declarations and function expressions.
+
+**Answer:**
+Function declarations and function expressions are both ways to define functions in JavaScript, but they have key differences.
+
+1. **Function Declarations:**
+
+   - Always have a function name.
+   - Hoisted to the top of their scope, allowing them to be called from anywhere within that scope, even before they are defined.
+   - Stored in memory before code execution, making them always available.
+
+2. **Function Expressions:**
+   - Do not have a name (anonymous) or can have a name (named function expression).
+   - Are not hoisted, meaning they can only be called from within the scope in which they are defined.
+   - Are not available until code execution reaches the line where they are defined.
+
+**Example:**
+
+```javascript
+// Function Declaration
+function greetDeclaration(name) {
+  return `Hello, ${name}!`;
+}
+
+// Function Expression (Anonymous)
+const greetExpression = function (name) {
+  return `Hello, ${name}!`;
+};
+
+// Function Expression (Named)
+const greetNamedExpression = function greet(name) {
+  return `Hello, ${name}!`;
+};
+```
