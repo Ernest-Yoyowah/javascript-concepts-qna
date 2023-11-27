@@ -68,7 +68,7 @@ const greetNamedExpression = function greet(name) {
 };
 ```
 
-3. What is a callback function, and how would you use it?
+3. **Question:** What is a callback function, and how would you use it?
 
 **Answer:**
 A callback function is a function passed as an argument to another function. Callback functions are commonly used in asynchronous operations, event handling, and error handling. They are executed or "called back" when a specific condition or function is met during execution.
