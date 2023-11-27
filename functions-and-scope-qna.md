@@ -68,8 +68,6 @@ const greetNamedExpression = function greet(name) {
 };
 ```
 
-## Functions and Scope
-
 3. What is a callback function, and how would you use it?
 
 **Answer:**
