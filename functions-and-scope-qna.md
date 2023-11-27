@@ -67,3 +67,33 @@ const greetNamedExpression = function greet(name) {
   return `Hello, ${name}!`;
 };
 ```
+
+## Functions and Scope
+
+3. What is a callback function, and how would you use it?
+
+**Answer:**
+A callback function is a function passed as an argument to another function. Callback functions are commonly used in asynchronous operations, event handling, and error handling. They are executed or "called back" when a specific condition or function is met during execution.
+
+Callback functions are crucial for tasks such as handling the result of an asynchronous operation, responding to user interactions, or managing errors in a non-blocking manner.
+
+**Example:**
+
+```javascript
+// Example of using a callback function in asynchronous operation
+const fetchData = (url, callback) => {
+  // Simulating an asynchronous operation (e.g., fetching data from a server)
+  setTimeout(() => {
+    const data = { result: "Some data" };
+    callback(data);
+  }, 1000);
+};
+
+// Callback function passed to fetchData
+const handleData = (data) => {
+  console.log(`Data received: ${data.result}`);
+};
+
+// Using the fetchData function with the callback
+fetchData("https://api.example.com/data", handleData);
+```
