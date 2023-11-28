@@ -96,8 +96,6 @@ const handleData = (data) => {
 fetchData("https://api.example.com/data", handleData);
 ```
 
-## Functions and Scope
-
 ### 24. How does JavaScript handle variable scope in functions?
 
 **Answer:**
