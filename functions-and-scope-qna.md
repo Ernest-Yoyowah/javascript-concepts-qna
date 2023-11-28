@@ -96,7 +96,7 @@ const handleData = (data) => {
 fetchData("https://api.example.com/data", handleData);
 ```
 
-### 24. How does JavaScript handle variable scope in functions?
+4. How does JavaScript handle variable scope in functions?
 
 **Answer:**
 JavaScript uses variable scope to determine where a variable is declared and accessible. There are two main types: local scope and global scope.
