@@ -95,3 +95,46 @@ const handleData = (data) => {
 // Using the fetchData function with the callback
 fetchData("https://api.example.com/data", handleData);
 ```
+
+## Functions and Scope
+
+### 24. How does JavaScript handle variable scope in functions?
+
+**Answer:**
+JavaScript uses variable scope to determine where a variable is declared and accessible. There are two main types: local scope and global scope.
+
+1. **Global Scope:**
+
+   - Variables declared outside functions have a global scope.
+   - They are accessible everywhere in the code.
+
+2. **Local Scope:**
+
+   - Variables declared inside functions have a local scope.
+   - They are accessible only within the functions where they are defined.
+
+3. **Variable Declaration:**
+   - **var:** Function-scoped; accessible within the function where they are defined.
+   - **let and const:** Block-scoped; accessible only within the block where they are defined in the code.
+
+**Example:**
+
+```javascript
+// Global Scope
+var globalVar = "I am global";
+
+const exampleFunction = () => {
+  // Local Scope
+  var localVar = "I am local";
+  let blockVar = "I am block-scoped";
+
+  console.log(globalVar); // Accessible
+  console.log(localVar); // Accessible
+  console.log(blockVar); // Accessible
+};
+
+exampleFunction();
+console.log(globalVar); // Accessible
+console.log(localVar); // Error: localVar is not defined (outside the function)
+console.log(blockVar); // Error: blockVar is not defined (outside the block)
+```
