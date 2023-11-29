@@ -136,3 +136,31 @@ console.log(globalVar); // Accessible
 console.log(localVar); // Error: localVar is not defined (outside the function)
 console.log(blockVar); // Error: blockVar is not defined (outside the block)
 ```
+
+## Functions and Scope
+
+### 25. What is a closure, and provide an example of its use?
+
+**Answer:**
+A closure in JavaScript refers to the situation involving two functions: an outer function and an inner function, where the inner function has the ability to access variables from the outer function. This occurs due to the concept of nested functions, and closures are powerful for creating private variables and maintaining state.
+
+**Example:**
+
+```javascript
+function human() {
+  const name = "Ernest";
+
+  // The inner function has access to the variable 'name' from the outer function
+  function sayHi() {
+    console.log(`Hi, I am ${name}`);
+
+    // The outer function does not have access to variables declared in the inner function
+    const innerText = "Inner text";
+    console.log(innerText); // Error: innerText is not defined in the outer function
+  }
+
+  sayHi();
+}
+
+human();
+```
