@@ -137,8 +137,6 @@ console.log(localVar); // Error: localVar is not defined (outside the function)
 console.log(blockVar); // Error: blockVar is not defined (outside the block)
 ```
 
-## Functions and Scope
-
 ### 25. What is a closure, and provide an example of its use?
 
 **Answer:**
