@@ -179,8 +179,6 @@ let result = twoSum(2, 5);
 console.log(result); // Output: 7
 ```
 
-## Functions and Scope
-
 ### 27. How do you pass parameters to a function in JavaScript?
 
 **Answer:**
