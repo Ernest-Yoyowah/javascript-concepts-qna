@@ -164,3 +164,17 @@ function human() {
 
 human();
 ```
+
+6. **Question:** Write a function that returns the sum of two numbers.
+
+**Answer:**
+To write a function that returns the sum of two numbers, you can use an arrow function. Here's an example:
+
+```javascript
+const twoSum = (num1, num2) => {
+  return num1 + num2;
+};
+
+let result = twoSum(2, 5);
+console.log(result); // Output: 7
+```
