@@ -179,7 +179,7 @@ let result = twoSum(2, 5);
 console.log(result); // Output: 7
 ```
 
-27. How do you pass parameters to a function in JavaScript?
+7. **Question:** How do you pass parameters to a function in JavaScript?
 
 **Answer:**
 To pass parameters in JavaScript functions, you need to define parameters in the function's parameter list. Parameters act as placeholders for values that will be passed into the function when it is called.
