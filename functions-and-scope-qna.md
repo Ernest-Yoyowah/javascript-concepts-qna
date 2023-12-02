@@ -195,9 +195,7 @@ const passParameter = (paraA, paraB, paraC) => {
 passParameter("Ernest", "male", "Software Engineer");
 ```
 
-## Functions and Scope
-
-### 29. Describe the concept of function hoisting.
+29. **Question:** Describe the concept of function hoisting.
 
 **Answer:**
 In JavaScript, function hoisting is the default behavior of moving all function declarations to the top of their scope before code execution. This means that, no matter where functions are declared using the `function` keyword, they are effectively moved to the top of their scope, whether it's global or local.
