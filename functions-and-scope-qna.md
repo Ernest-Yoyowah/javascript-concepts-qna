@@ -210,7 +210,7 @@ function hoistedFunction() {
 }
 ```
 
-9. Write a function that calculates the average of an array of numbers.
+9. **Question:** Write a function that calculates the average of an array of numbers.
 
 **Answer:**
 I will use an arrow function. First, I will declare my function:
