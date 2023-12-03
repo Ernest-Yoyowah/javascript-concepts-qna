@@ -209,3 +209,22 @@ function hoistedFunction() {
   console.log("I am hoisted!");
 }
 ```
+
+## Functions and Scope
+
+### 30. Write a function that calculates the average of an array of numbers.
+
+**Answer:**
+I will use an arrow function. First, I will declare my function:
+
+```javascript
+const calculateAverage = (numbers) => {
+  const sumOfNumbers = numbers.reduce((sum, num) => sum + num);
+  const average = sumOfNumbers / numbers.length;
+  return average;
+};
+
+const arrayNumbers = [1, 2, 3, 5, 5];
+const result = calculateAverage(arrayNumbers);
+console.log(result);
+```
