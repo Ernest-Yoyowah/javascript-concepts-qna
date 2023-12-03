@@ -227,7 +227,7 @@ const result = calculateAverage(arrayNumbers);
 console.log(result);
 ```
 
-10. What is the purpose of the arguments object in a function?
+10. **Question:** What is the purpose of the arguments object in a function?
 
 **Answer:**
 The `arguments` object is a local variable available within all non-arrow functions. It allows you to refer to a function's arguments inside that function by using its arguments object. This object has entries for each argument the function was called with, with the first entry's index at 0.
