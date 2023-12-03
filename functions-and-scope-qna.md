@@ -210,8 +210,6 @@ function hoistedFunction() {
 }
 ```
 
-## Functions and Scope
-
 ### 30. Write a function that calculates the average of an array of numbers.
 
 **Answer:**
