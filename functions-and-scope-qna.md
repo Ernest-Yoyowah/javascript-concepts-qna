@@ -226,3 +226,21 @@ const arrayNumbers = [1, 2, 3, 5, 5];
 const result = calculateAverage(arrayNumbers);
 console.log(result);
 ```
+
+28. What is the purpose of the arguments object in a function?
+
+**Answer:**
+The `arguments` object is a local variable available within all non-arrow functions. It allows you to refer to a function's arguments inside that function by using its arguments object. This object has entries for each argument the function was called with, with the first entry's index at 0.
+
+Example:
+
+```javascript
+function numbers() {
+  for (let i = 0; i < arguments.length; i++) {
+    console.log(arguments[i]);
+  }
+  console.log(arguments.length); // to check the length of arguments
+}
+
+numbers(1, 2, 3, 5, 5, 6);
+```
