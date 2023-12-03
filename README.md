@@ -7,6 +7,8 @@ This repository contains a collection of questions and answers related to fundam
 1. [Variables and Data Types](variables-and-data-types-qna.md)
 2. [Control Flow](control-flow-qna.md)
 3. [Functions and Scope](functions-and-scope-qna.md)
+4. [Arrays and Objects](arrays-and-objects-qna.md)
+5. [Error Handling](error-handling-qna.md)
 
 ...
 
